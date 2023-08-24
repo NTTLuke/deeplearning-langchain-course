@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+pypdf = "*"
+yt-dlp = "*"
+pydub = "*"
+ffmpeg-python = "*"
+openai = "*"
+openai-whisper = "*"
+bs4 = "*"
+chromadb = "*"
+lark = "*"
+panel = "*"
+langchain = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
