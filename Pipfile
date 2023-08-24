@@ -4,18 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+langchain = "*"
 python-dotenv = "*"
-pypdf = "*"
-yt-dlp = "*"
-pydub = "*"
-ffmpeg-python = "*"
 openai = "*"
-openai-whisper = "*"
-bs4 = "*"
+pypdf = "*"
+tiktoken = "*"
 chromadb = "*"
 lark = "*"
-panel = "*"
-langchain = "*"
 
 [dev-packages]
 
